@@ -1,0 +1,137 @@
+.about {
+  border-top: 1px solid var(--border);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 80px;
+  align-items: start;
+  margin-top: 48px;
+}
+
+.accent {
+  color: var(--accent);
+}
+
+.bio {
+  color: var(--text-dim);
+  line-height: 1.8;
+  margin-top: 24px;
+  margin-bottom: 32px;
+  max-width: 480px;
+}
+
+.links {
+  display: flex;
+  gap: 24px;
+}
+
+.link {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+  transition: opacity 0.2s;
+}
+
+.link:hover {
+  opacity: 0.7;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+}
+
+.cardTitle {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 20px;
+}
+
+.eduList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.eduItem {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.eduItem:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.eduDegree {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.eduSub {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--accent2);
+}
+
+.eduInst {
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+.certList {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.certItem {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.certMark {
+  color: var(--accent);
+  font-size: 12px;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.certName {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.certIssuer {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-top: 2px;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+}
