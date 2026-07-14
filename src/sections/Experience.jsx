@@ -76,6 +76,9 @@ export default function Experience() {
                       {experience[active].company}
                     </p>
                     <p className={styles.location}>{experience[active].location}</p>
+                    {experience[active].duration && (
+                      <p className={styles.duration}>{experience[active].duration}</p>
+                    )}
                   </div>
                   <span className={styles.typeBadge}>{experience[active].type}</span>
                 </div>

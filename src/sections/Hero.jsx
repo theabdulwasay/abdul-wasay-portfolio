@@ -218,7 +218,7 @@ export default function Hero() {
         </motion.div>
         
         <motion.div className={styles.badges} variants={itemVariants}>
-          {['Python', 'Machine Learning', 'React', 'FastAPI', 'Docker', 'Power BI', 'CEH'].map((b) => (
+          {['Python', 'Machine Learning', 'React', 'Django', 'CEH', 'Power BI', 'Agentic AI', 'FastAPI'].map((b) => (
             <span key={b} className={styles.badge}>{b}</span>
           ))}
         </motion.div>

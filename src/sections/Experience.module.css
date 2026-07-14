@@ -104,6 +104,15 @@
   font-family: var(--font-mono);
   font-size: 12px;
   color: var(--text-dimmer);
+  margin-bottom: 6px;
+}
+
+.duration {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--accent);
+  opacity: 0.8;
+  margin-top: 2px;
 }
 
 .typeBadge {

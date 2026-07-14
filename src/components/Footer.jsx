@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.css';
+import { personal } from '../data/portfolio';
 
 export default function Footer() {
   return (
@@ -9,9 +10,9 @@ export default function Footer() {
           © {new Date().getFullYear()} Abdul Wasay · Built with React + Vite · Deployed on Vercel
         </span>
         <div className={styles.links}>
-          <a href="https://github.com/theabdulwasay" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://linkedin.com/in/abdul-wasay" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="mailto:abdulwasaymalik757@gmail.com">Email</a>
+          <a href={personal.github} target="_blank" rel="noreferrer">GitHub</a>
+          <a href={personal.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href={`mailto:${personal.email}`}>Email</a>
         </div>
       </div>
     </footer>

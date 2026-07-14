@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Navbar.module.css';
+import { personal } from '../data/portfolio';
 
 const navLinks = [
   { label: 'About', href: '#about' },
@@ -32,7 +33,7 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-        <a href="mailto:abdulwasaymalik757@gmail.com" className={styles.cta}>
+        <a href={`mailto:${personal.email}`} className={styles.cta}>
           Hire Me
         </a>
         <button

@@ -4,14 +4,12 @@ import { skills } from '../data/portfolio';
 import styles from './Skills.module.css';
 
 const categoryColors = {
-  'Languages': 'var(--accent)',
-  'AI & Data': 'var(--accent2)',
-  'Frameworks': '#a78bfa',
-  'Databases': '#fb923c',
-  'DevOps & Tools': '#f472b6',
+  'Languages & Frameworks': 'var(--accent)',
+  'Data & Analytics': 'var(--accent2)',
   'Cybersecurity': '#f87171',
-  'Visualization': '#34d399',
-  'AI Editors': '#fbbf24',
+  'AI / ML': '#a78bfa',
+  'Tools & Platforms': '#f472b6',
+  'Core Strengths': '#fbbf24',
 };
 
 export default function Skills() {

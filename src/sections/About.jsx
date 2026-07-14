@@ -33,7 +33,12 @@ export default function About() {
               <div className={styles.eduList}>
                 {education.map((e, i) => (
                   <div key={i} className={styles.eduItem}>
-                    <span className={styles.eduDegree}>{e.degree}</span>
+                    <div className={styles.eduHeader}>
+                      <span className={styles.eduDegree}>{e.degree}</span>
+                      {e.duration && (
+                        <span className={styles.eduDuration}>{e.duration}</span>
+                      )}
+                    </div>
                     {e.specialization && (
                       <span className={styles.eduSub}>{e.specialization}</span>
                     )}
@@ -43,14 +48,17 @@ export default function About() {
               </div>
             </div>
 
-            <div className={styles.card}>
+            <div className={`${styles.card} ${styles.certCard}`}>
               <h3 className={styles.cardTitle}>Certifications</h3>
-              <div className={styles.certList}>
+              <div className={styles.certGrid}>
                 {certifications.map((c, i) => (
                   <div key={i} className={styles.certItem}>
                     <span className={styles.certMark}>✦</span>
-                    <div>
-                      <div className={styles.certName}>{c.name}</div>
+                    <div className={styles.certBody}>
+                      <div className={styles.certNameRow}>
+                        <div className={styles.certName}>{c.name}</div>
+                        {c.note && <span className={styles.certNote}>{c.note}</span>}
+                      </div>
                       <div className={styles.certIssuer}>{c.issuer}</div>
                     </div>
                   </div>
