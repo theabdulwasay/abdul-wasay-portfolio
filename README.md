@@ -1,31 +1,75 @@
 ﻿
- # Abdul Wasay - Portfolio
+# Abdul Wasay - Portfolio
 
-Welcome to my personal portfolio repository! This project showcases my work as a **Data Scientist** and **Full-Stack Developer**, bridging analytical rigor with engineering and security-conscious design.
+A modern personal portfolio website built with React and Vite. This project is a clean, responsive showcase of professional experience, skills, projects, and contact details for Abdul Wasay.
 
-## About
-I am a Data Scientist and Certified Ethical Hacker passionate about turning raw data and complex requirements into actionable insights and robust software solutions.
+## Live Preview
+- **Website:** https://abdul-wasay-portfolio-one.vercel.app
+- **GitHub:** https://github.com/theabdulwasay
+- **LinkedIn:** https://www.linkedin.com/in/abdul-wasay757
 
-- **Portfolio Site:** [abdul-wasay-portfolio-one.vercel.app](https://abdul-wasay-portfolio-one.vercel.app)
-- **LinkedIn:** [linkedin.com/in/abdul-wasay757](https://www.linkedin.com/in/abdul-wasay757)
-- **GitHub:** [github.com/theabdulwasay](https://github.com/theabdulwasay)
+## Project Overview
+This repository contains a fully client-side portfolio built using:
+- React for component-based UI
+- Vite for fast development and build tooling
+- Framer Motion for smooth motion effects
+- Lucide React for icons
 
-## Core Skills
-*   **Languages & Frameworks:** Python, JavaScript, React, Django, FastAPI, Flask, Node.js/Express
-*   **Data & Analytics:** Power BI, Jupyter Notebook, Pandas, NumPy, EDA, DAX, SQL, NLP
-*   **Cybersecurity:** CEH, Kali Linux, Vulnerability Assessment, Penetration Testing
-*   **AI / ML:** Machine Learning, RAG Systems, Agentic AI, LLM Integration
+The app includes the following sections:
+- Hero
+- About
+- Experience
+- Projects
+- Skills
+- Contact
+- Theme customizer and custom cursor UI enhancements
 
-## Featured Projects
-*   **TeamFlow:** Collaborative task and team workspace coordinator with real-time analytics.
-*   **Nexus AI:** Agentic AI assistant framework featuring a Plan → Execute → Verify workflow.
-*   **Smart Mini ERP System:** Full-stack production-ready ERP system for Pakistani businesses.
-*   **Enterprise-Grade Power BI Sales Intelligence:** Star Schema data model with advanced DAX measures for C-suite reporting.
+## Installation
+1. Clone the repository
+   ```bash
+   git clone https://github.com/theabdulwasay/abdul-wasay-portfolio.git
+   cd abdul-wasay-portfolio/abdul-wasay-portfolio
+   ```
+2. Install dependencies
+   ```bash
+   npm install
+   ```
 
-## Licenses & Certifications
-*   Generative AI Application Developer Certificate (ULEFUSA)
-*   Google Business Intelligence Professional Certificate
-*   Data Science & Python certifications (IBM, Meta)
+## Development
+Run the local development server:
+```bash
+npm run dev -- --host 0.0.0.0
+```
+Open `http://localhost:5173` in your browser.
+
+## Build
+Create a production build:
+```bash
+npm run build
+```
+
+## Key Features
+- Responsive single-page layout
+- Smooth animations using Framer Motion
+- Theme customization controls
+- Custom cursor effect
+- Contact section for portfolio inquiries
+
+## Technologies Used
+- React
+- Vite
+- JavaScript
+- Framer Motion
+- Lucide React
+
+## About Abdul Wasay
+Abdul is a Data Scientist and Full-Stack Developer with expertise in analytics, AI, cybersecurity, and enterprise applications. His background includes:
+- Python, JavaScript, React
+- Django, FastAPI, Flask, Node.js/Express
+- Data analysis with Pandas, NumPy, SQL
+- Power BI, DAX, data modeling
+- Ethical hacking, vulnerability assessment, and penetration testing
+- Machine learning and LLM/AI integration
 
 ---
-*Built with React, Vite, and deployed on Vercel.*
+Built with React, Vite, and optimized for fast local development.
