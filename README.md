@@ -1,4 +1,4 @@
-﻿# abdul-wasay-portfolio
+﻿
  # Abdul Wasay - Portfolio
 
 Welcome to my personal portfolio repository! This project showcases my work as a **Data Scientist** and **Full-Stack Developer**, bridging analytical rigor with engineering and security-conscious design.
